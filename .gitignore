@@ -1,6 +1,7 @@
 __pycache__/
 .idea/
 venv/
+DC_Store
 *.py[cod]
 *$py.class
 *.so
