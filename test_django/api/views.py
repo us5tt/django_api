@@ -1,4 +1,3 @@
-from rest_framework.generics import get_object_or_404
 from rest_framework.generics import ListCreateAPIView, RetrieveUpdateAPIView
 from rest_framework.generics import RetrieveUpdateDestroyAPIView
 
