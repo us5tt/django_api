@@ -8,7 +8,7 @@ from .serializers import ParsSerializer
 
 
 def index(request):
-    return HttpResponse("Головна сторінка в розробці")
+    return HttpResponse("main page coming soon")
 
 
 class ParsView(ListCreateAPIView):
@@ -24,3 +24,5 @@ class SingleParsView(RetrieveUpdateAPIView):
 class SingleParsView(RetrieveUpdateDestroyAPIView):
     queryset = Pars.objects.all()
     serializer_class = ParsSerializer
+
+

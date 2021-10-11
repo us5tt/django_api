@@ -8,3 +8,4 @@ urlpatterns = [
     path('items/', ParsView.as_view()),
     path('items/<int:pk>', SingleParsView.as_view())
 ]
+

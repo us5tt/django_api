@@ -4,3 +4,4 @@ from .models import Pars
 
 
 admin.site.register(Pars)
+

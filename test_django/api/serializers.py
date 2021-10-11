@@ -7,4 +7,3 @@ class ParsSerializer(serializers.ModelSerializer):
         model = Pars
         fields = ('title', 'usd_price', 'city', 'description', 'id')
 
-
