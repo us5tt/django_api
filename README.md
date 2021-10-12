@@ -1,1 +1,1 @@
-# django_api_2
+# django_api_GenerucAPIView
