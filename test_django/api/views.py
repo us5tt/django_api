@@ -1,6 +1,5 @@
-from rest_framework.generics import get_object_or_404
 from rest_framework.generics import ListCreateAPIView, RetrieveUpdateAPIView
-from rest_framework.generics import RetrieveUpdateDestroyAPIView
+
 
 from django.http import HttpResponse
 
@@ -22,6 +21,4 @@ class SingleParsView(RetrieveUpdateAPIView):
     serializer_class = ParsSerializer
 
 
-class SingleParsView(RetrieveUpdateDestroyAPIView):
-    queryset = Pars.objects.all()
-    serializer_class = ParsSerializer
+
